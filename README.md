@@ -147,7 +147,17 @@ We have provided test data for all the resources.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+Express is useful because it provides server-side logic for web and mobile applications. node.js is useful because 
+node js is able to handle servers, is scalable, and can be used on multiple platforms.
 1. Understand and explain the use of Middleware.
+Middleware is used to execute code, make changes to req and res objects, and next. Middleware can also be used to add logging and authentication.
 1. The basic principles of the REST architectural style.
+REST is a client-server architecture meaning the client-side and the server-side are able to be changed/updated independently as long each know what messages to send to eachother.
+Cacheable - meaning the client, the server, and any components can all cache resources in order to improve performance.
+Stateless - meaning if access to resource requires authentication, then the client-side needs to authenticate itself with every request.
+Rest is uniform meaning that all components follow the same rules in order to speak to one another.
+REST is a layered system thatRest provides code on demand.
 1. Understand and explain the use of Express Routers.
-1. Describe tooling used to manually test the correctness of an API.
+Routers can be used to put middleware on a specific route, which allows us to keep our logic in seperate files and bring them together on our own terms.
+1. Describe tooling used to manually test the correctness of an API. You can use postman, httpie and many more., with postman you simply put what request you are trying to send wether it is a get, post, delete, or put after that you just provide your localhost link and are able to see what is being returned based on the endpoints you wrote.
+
